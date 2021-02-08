@@ -1,0 +1,18 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Poppins', sans-serif !important;
+  background-color: #353535;
+  min-height: 100vh;
+  color: #fff;
+}
+.home-banner {
+  min-height: 70vh;
+  background: transparent;
+}
+
+.vh-70 {
+  min-height: 70vh;
+}
+
