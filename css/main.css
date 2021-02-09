@@ -11,8 +11,18 @@ body {
   min-height: 70vh;
   background: transparent;
 }
-
 .vh-70 {
   min-height: 70vh;
 }
-
+.about-image{
+  min-height: 400px;
+  width: 100%;
+  background: transparent;
+}
+.about-text{
+  border-radius: 4px;
+  margin-left: -100%;
+  background: #060c0c;
+  height: 100%;
+  margin-top: -7%;
+}
