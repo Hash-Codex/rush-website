@@ -13,14 +13,12 @@
 .f-unisans {
   font-family: "unisans", sans-serif !important;
 }
-
 /* html {
   scroll-behavior: smooth;
 } */
 .overflow-x {
   overflow-x: hidden;
 }
-
 body {
   font-family: "Nexa-Light", sans-serif !important;
   background-color: #070707;
@@ -28,36 +26,29 @@ body {
   color: #fff;
   overflow-x: hidden;
 }
-
 .bg-img {
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
-
 .home-banner {
   min-height: 70vh;
   background: #070707;
 }
-
 .vh-70 {
   min-height: 70vh;
 }
-
 .vh-40 {
   min-height: 40vh;
 }
-
 .navbar-bg {
   background-color: rgba(0, 0, 0, 0.5);
 }
-
 .about-image {
   min-height: 400px;
   width: 100%;
   background: transparent;
 }
-
 .about-text {
   border-radius: 4px;
   margin-left: -100%;
@@ -65,19 +56,26 @@ body {
   height: 100%;
   margin-top: -7%;
 }
-
 .header-border {
   text-align: center;
   padding-bottom: 20px;
-  background: linear-gradient(to left, #5ac2c6 50%, #07ef9c 100%) left bottom #777 no-repeat;
-  background-size: 100% 20px;
-  /* if linear-gradient, we need to resize it */
+  background: linear-gradient(
+      to left,
+      rgba(90, 194, 198, 1) 50%,
+      rgba(7, 239, 156, 1) 100%
+    )
+    left bottom #777 no-repeat;
+  background-size: 100% 20px; /* if linear-gradient, we need to resize it */
 }
 
 .btn-grad {
-  background-image: linear-gradient(to right, #438dd6 0%, #09e9ca 50%, #09e99e 90.84%);
+  background-image: linear-gradient(
+    to right,
+    #438dd6 0%,
+    #09e9ca 50%,
+    #09e99e 90.84%
+  );
 }
-
 .btn-grad {
   /* margin: 10px; */
   padding: 15px 45px;
@@ -92,10 +90,8 @@ body {
   /* box-shadow: 0 0 20px #eee; */
   display: block;
 }
-
 .btn-grad:hover {
-  background-position: right center;
-  /* change the direction of the change here */
+  background-position: right center; /* change the direction of the change here */
   color: #fff;
   /* text-decoration: none; */
 }
@@ -109,7 +105,6 @@ body {
   width: 100%;
   overflow: hidden;
 }
-
 .swiper-container {
   width: 100%;
   height: 70vh;
@@ -122,27 +117,22 @@ body {
   height: 60px !important;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
-.swiper-home-banner-button-next::after {
-  content: "next";
+.swiper-home-banner-button-next::after{
+  content: 'next';
   font-size: 30px !important;
   padding: 10px !important;
   color: #fff !important;
 }
-
 .swiper-home-banner-button-prev {
-  left: 0px !important;
+  left: 0px !important; 
   right: auto;
   width: 60px !important;
   height: 60px !important;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
-.swiper-home-banner-button-prev::after {
-  content: "next";
+.swiper-home-banner-button-prev::after{
+  content: 'next';
   font-size: 30px !important;
   padding: 10px !important;
   color: #fff !important;
 }
-
-/*# sourceMappingURL=main.css.map */
