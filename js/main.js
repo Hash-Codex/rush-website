@@ -1,14 +1,23 @@
-$(".home-banner").parallax({ imageSrc: "../assets/img/home-banner.png" });
+// $(".home-banner").parallax({ imageSrc: "../assets/img/home-banner.png" });
 
-// gsap.to(".about-text", {
-//   scrollTrigger: {
-//     trigger: ".about-text",
-//     start: "-300px 500px",
-//     end: "600px",
-//     scrub: true, 
-//   },
-//   y: 100,
-//   duration: 3,
-//   delay: 0.2,
-//   ease: "power1.inOut",
-// });
+// const swiper = new Swiper('.swiper-container', {
+//     // Optional parameters
+//     direction: 'vertical',
+//     loop: true,
+  
+//     // If we need pagination
+//     pagination: {
+//       el: '.swiper-pagination',
+//     },
+  
+//     // Navigation arrows
+//     navigation: {
+//       nextEl: '.swiper-button-next',
+//       prevEl: '.swiper-button-prev',
+//     },
+  
+//     // And if we need scrollbar
+//     scrollbar: {
+//       el: '.swiper-scrollbar',
+//     },
+//   });
