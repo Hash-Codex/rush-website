@@ -174,29 +174,32 @@
         </div>
     </section>
     <section class="py-5">
-        <div class="container-fluid g-0">
+        <div class="container-fluid">
             <div class="row pt-4">
                 <div class="col-12 pt-4 text-center">
                     <h1 class="f-unisans">Featured work</h1>
                 </div>
                 <div class="col-12 h-400px">
                     <div class="pt-5 h-100 position-relative">
-
                         <!-- slider main container -->
                         <div class="swiper-container pt-5 h-100  swiper-featured-container pt-4">
                             <!-- additional required wrapper -->
                             <div class="swiper-wrapper h-400px">
                                 <!-- slides -->
+
                                 <div class="swiper-slide d-flex justify-content-center">
                                     <div class="slide-trans">
-                                        <div class="featured-bg bg-img"
-                                            style="background-image: url(assets/img/featured-1.png);">
-                                        </div>
-                                        <img src="assets/img/featured-1.png" class="img-fluid f" alt="">
-                                        <div class="featured-content text-center">
-                                            <h4 class="f-unisans pt-4">ROY WOODS</h4>
-                                            <sub class="bottom-1rem">sdbvh</sub>
-                                        </div>
+                                        <a type="button" class="none-style" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            <div class="featured-bg bg-img"
+                                                style="background-image: url(assets/img/featured-1.png);">
+                                            </div>
+                                            <img src="assets/img/featured-1.png" class="img-fluid f" alt="">
+                                            <div class="featured-content text-center">
+                                                <h4 class="f-unisans pt-4">Thisone</h4>
+                                                <sub class="bottom-1rem">sdbvh</sub>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="swiper-slide d-flex justify-content-center">
@@ -264,11 +267,11 @@
             <div class="row">
                 <div class="col-md-6 col-sm-6 overflow-x"></div>
                 <div class="col-md-6 col-sm-6 overflow-x">
-                    <div class="pt-5 pe-4" data-aos="fade-left"  data-aos-duration="1500">
-                        <h1 class="f-unisans" >ARE YOU
+                    <div class="pt-5 pe-4" data-aos="fade-left" data-aos-duration="1500">
+                        <h1 class="f-unisans">ARE YOU
                             LOOKING FOR A TOP MUSIC PRODUCER IN JORDAN?</h1>
                     </div>
-                    <div class="pb-5 pe-4"  data-aos="fade-left" data-aos-delay="300" data-aos-duration="1500">  
+                    <div class="pb-5 pe-4" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1500">
                         <p class="pt-4 ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                             sed diam nonummy nibh euismod tincidunt ut laoreet dolore
                             magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
@@ -286,36 +289,62 @@
             </div>
         </div>
     </section>
-    <section class="bg-00 mt-5">
+    <section class="bg-00">
         <div class="container py-5">
-            <div class="row d-flex justify-content-center align-content-md-center pt-5">
+            <div class="row  pt-5">
                 <div class="col-md-8 col-sm-12">
                     <img src="assets/img/logo.png" alt="" class="img-fluid" width="300px">
                 </div>
-                <div class="col-md-4 col-sm-12 footer">
-                    <a class="nav-link" href="#">Rush records</a>
-                    <a class="nav-link" href="#">Rush Picture</a>
-                    <a class="nav-link" href="#">Contact us</a>
-                    <a class="nav-link" href="#">About us</a>
-                    <a class="nav-link" href="#">Our community</a>
+                <div class="col-md-4 col-sm-12  footer">
+                    <div class="d-md-block d-sm-flex flex-column justify-content-sm-center">
+                        <a class="nav-link" href="#">Rush records</a>
+                        <a class="nav-link" href="#">Rush Picture</a>
+                        <a class="nav-link" href="#">Contact us</a>
+                        <a class="nav-link" href="#">About us</a>
+                        <a class="nav-link" href="#">Our community</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl ">
+            <div class="modal-content bg-dark">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h5 class="modal-title f-unisans" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close text-main" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <div class="w-100 d-flex justify-content-center">
+                        <img src="assets/img/are-you-home.png" alt="" class="img-fluid mh-100">
+                    </div>
+                    <h1 class="f-unisans pt-4">Hi!</h1>
+                    <p class="pt-4 ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                        magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                        quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                        ut aliquip ex ea commodo consequat. Duis autem vel eum
+
+                        iriure dolor in hendrerit in vulputate velit esse molestie con-
+                        sequat, vel illum dolore eu feugiat nulla facilisis at vero eros
+
+                        et accumsan et iusto odio dignissim qui blandit praesent
+
+                        luptatum zzril delenit augue duis dolore te feugait nulla facili-</p>
+                    <p class="pt-4 ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                        magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                        quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                        ut aliquip ex ea commodo consequat. Duis autem vel eum
+
+                        iriure dolor in hendrerit in vulputate velit esse molestie con-
+                        sequat, vel illum dolore eu feugiat nulla facilisis at vero eros
+
+                        et accumsan et iusto odio dignissim qui blandit praesent
+
+                        luptatum zzril delenit augue duis dolore te feugait nulla facili-</p>
                 </div>
             </div>
         </div>
@@ -359,10 +388,6 @@
             }
         });
         var swiperFeatured = new Swiper('.swiper-featured-container', {
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'fraction',
-            },
             navigation: {
                 nextEl: '.featured-next',
                 prevEl: '.featured-prev',
