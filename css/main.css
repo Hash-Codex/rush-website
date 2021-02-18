@@ -1,3 +1,11 @@
+.text-main {
+  color: #3BC1C8;
+}
+
+.bg-main {
+  background-color: #3BC1C8 !important;
+}
+
 @font-face {
   font-family: Nexa-Light;
   src: url("../assets/fonts/Nexa-Light.otf");
@@ -204,6 +212,7 @@ body {
 }
 
 .footer .nav-link {
+  width: fit-content;
   color: #fff !important;
   text-decoration: none;
   font-size: 1.4rem;
@@ -213,6 +222,44 @@ body {
 .footer .nav-link:hover {
   font-size: 1.6rem;
   font-weight: bold;
+}
+
+.modal {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+.modal .modal-header {
+  border-bottom: 0px;
+  background: #15181b;
+}
+
+.none-style {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+.none-style:hover {
+  color: #fff !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #888;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 1px;
+  background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #15181b;
 }
 
 /*# sourceMappingURL=main.css.map */
