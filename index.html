@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="assets/img/logo.png">
+    <link rel="icon" href="assets/img/footer-logo.png">
     <!-- Bootstrap CSS -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
@@ -21,9 +21,11 @@
 </head>
 
 <body>
+    <div class="supreme-container">
     <nav class="navbar navbar-expand-lg navbar-dark navbar-bg">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" class="img-fluid w-75"
+            <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" class=""
+                height="90px" width="100px"
                     alt="Rush Production"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,13 +40,10 @@
                         <a class="nav-link " href="records.html">Rush records</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Rush Picture</a>
+                        <a class="nav-link" href="pictures.html">Rush Picture</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About us</a>
+                        <a class="nav-link" href="contact.html">Contact us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Our community</a>
@@ -176,10 +175,10 @@
     <section class="py-5">
         <div class="container-fluid">
             <div class="row pt-4">
-                <div class="col-12 pt-4 text-center">
-                    <h1 class="f-unisans">Featured work</h1>
+                <div class="col-12 pt-4 text-center"  data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="f-unisans">FEATURED WOKE</h1>
                 </div>
-                <div class="col-12 h-400px">
+                <div class="col-12 h-400px"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
                     <div class="pt-5 h-100 position-relative">
                         <!-- slider main container -->
                         <div class="swiper-container pt-5 h-100  swiper-featured-container pt-4">
@@ -196,7 +195,7 @@
                                             </div>
                                             <img src="assets/img/featured-1.png" class="img-fluid f" alt="">
                                             <div class="featured-content text-center">
-                                                <h4 class="f-unisans pt-4">Thisone</h4>
+                                                <h4 class="f-unisans pt-4">THIS ONE 1</h4>
                                                 <sub class="bottom-1rem">sdbvh</sub>
                                             </div>
                                         </a>
@@ -204,14 +203,17 @@
                                 </div>
                                 <div class="swiper-slide d-flex justify-content-center">
                                     <div class="slide-trans">
+                                        <a type="button" class="none-style" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal2">
                                         <div class="featured-bg bg-img"
                                             style="background-image: url(assets/img/featured-2.png);">
                                         </div>
                                         <img src="assets/img/featured-2.png" class="img-fluid f" alt="">
                                         <div class="featured-content text-center">
-                                            <h4 class="f-unisans pt-4">ROY WOODS</h4>
+                                            <h4 class="f-unisans pt-4">THIS ONE 2</h4>
                                             <sub class="bottom-1rem">sdbvh</sub>
                                         </div>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="swiper-slide d-flex justify-content-center">
@@ -289,25 +291,24 @@
             </div>
         </div>
     </section>
-    <section class="bg-00">
+    <footer class="bg-00">
         <div class="container py-5">
             <div class="row  pt-5">
                 <div class="col-md-8 col-sm-12">
-                    <img src="assets/img/logo.png" alt="" class="img-fluid" width="300px">
+                    <img src="assets/img/footer-logo.png" alt="" class="img-fluid" width="300px">
                 </div>
                 <div class="col-md-4 col-sm-12  footer">
                     <div class="d-md-block d-sm-flex flex-column justify-content-sm-center">
-                        <a class="nav-link" href="#">Rush records</a>
-                        <a class="nav-link" href="#">Rush Picture</a>
-                        <a class="nav-link" href="#">Contact us</a>
-                        <a class="nav-link" href="#">About us</a>
+                        <a class="nav-link" href="records.html">Rush records</a>
+                        <a class="nav-link" href="pictures.html">Rush Picture</a>
+                        <a class="nav-link" href="contact.html">Contact us</a>
                         <a class="nav-link" href="#">Our community</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
+    </footer>
+    </div>
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl ">
             <div class="modal-content bg-dark">
@@ -345,6 +346,49 @@
                         et accumsan et iusto odio dignissim qui blandit praesent
 
                         luptatum zzril delenit augue duis dolore te feugait nulla facili-</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl ">
+            <div class="modal-content rounded-1rem   bg-dark">
+                <!-- <div class="modal-header">
+                    <h5 class="modal-title f-unisans" id="exampleModal2Label">Modal title</h5>
+                    <button type="button" class="btn-close text-main" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div> -->
+                <div class="modal-body pt-0 px-0">
+                    <div class="w-100 d-flex justify-content-center">
+                        <img src="assets/img/are-you-home.png" alt="" class="img-fluid mh-100">
+                    </div>
+                    <div class="px-4">            
+                        <h1 class="f-unisans pt-4">Hi!</h1>
+                        <p class="pt-4 ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                            magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                            quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                            ut aliquip ex ea commodo consequat. Duis autem vel eum
+    
+                            iriure dolor in hendrerit in vulputate velit esse molestie con-
+                            sequat, vel illum dolore eu feugiat nulla facilisis at vero eros
+    
+                            et accumsan et iusto odio dignissim qui blandit praesent
+    
+                            luptatum zzril delenit augue duis dolore te feugait nulla facili-</p>
+                        <p class="pt-4 ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                            magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                            quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                            ut aliquip ex ea commodo consequat. Duis autem vel eum
+    
+                            iriure dolor in hendrerit in vulputate velit esse molestie con-
+                            sequat, vel illum dolore eu feugiat nulla facilisis at vero eros
+    
+                            et accumsan et iusto odio dignissim qui blandit praesent
+    
+                            luptatum zzril delenit augue duis dolore te feugait nulla facili-</p>
+                    </div>
                 </div>
             </div>
         </div>

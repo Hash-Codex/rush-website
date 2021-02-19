@@ -86,11 +86,8 @@ body {
   /* if linear-gradient, we need to resize it */
 }
 
-.btn-grad {
-  background-image: linear-gradient(to right, #438dd6 0%, #09e9ca 50%, #09e99e 90.84%);
-}
-
-.btn-grad {
+.btn-grad-rec {
+  background-image: linear-gradient(to right, #4B88BF 0%, #4BACBF 50%, #4AD1EC 90.84%);
   /* margin: 10px; */
   padding: 15px 45px;
   text-align: center;
@@ -102,6 +99,51 @@ body {
   font-family: "unisans", sans-serif !important;
   font-size: 1.5rem;
   /* box-shadow: 0 0 20px #eee; */
+  background-position: left center;
+  display: block;
+}
+.btn-grad-rec:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+}
+
+.btn-grad-pic {
+  background-image: linear-gradient(to right, #808080 0%, #525252 50%, #292929 90.84%);
+  /* margin: 10px; */
+  padding: 15px 45px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 150% auto;
+  color: white;
+  border: none !important;
+  border-radius: 0;
+  font-family: "unisans", sans-serif !important;
+  font-size: 1.5rem;
+  /* box-shadow: 0 0 20px #eee; */
+  background-position: left center;
+  display: block;
+}
+.btn-grad-pic:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #438dd6 0%, #09e9ca 50%, #09e99e 90.84%);
+  /* margin: 10px; */
+  padding: 15px 45px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 150% auto;
+  color: white;
+  border: none !important;
+  border-radius: 0;
+  font-family: "unisans", sans-serif !important;
+  font-size: 1.5rem;
+  /* box-shadow: 0 0 20px #eee; */
+  background-position: left center;
   display: block;
 }
 
@@ -189,6 +231,16 @@ body {
   transition: transform 0.5s ease-in-out;
 }
 .swiper-featured-container .swiper-wrapper .swiper-slide .slide-trans:hover {
+  transform: translate(0, -30px);
+}
+
+.swiper-featured-container-artist .swiper-wrapper .swiper-slide .slide-trans {
+  width: 300px !important;
+  height: 400px;
+  position: relative;
+  transition: transform 0.5s ease-in-out;
+}
+.swiper-featured-container-artist .swiper-wrapper .swiper-slide .slide-trans:hover {
   transform: translate(0, -30px);
 }
 
@@ -290,6 +342,22 @@ body.modal-open .supreme-container {
 
 .fs-4rem {
   font-size: 4rem;
+}
+
+.pictures-header-border {
+  text-align: center;
+  padding-bottom: 20px;
+  background: linear-gradient(to left, #262223 50%, #f6f6f6 100%) left bottom #777 no-repeat;
+  background-size: 100% 20px;
+  /* if linear-gradient, we need to resize it */
+}
+
+.rounded-1rem {
+  border-radius: 1rem !important;
+}
+
+.h-250px {
+  height: 350px;
 }
 
 /*# sourceMappingURL=main.css.map */
