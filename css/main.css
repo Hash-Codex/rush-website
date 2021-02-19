@@ -1,3 +1,15 @@
+.text-rec {
+  color: #4B7EBF;
+}
+
+.text-main {
+  color: #3BC1C8;
+}
+
+.bg-main {
+  background-color: #3BC1C8 !important;
+}
+
 @font-face {
   font-family: Nexa-Light;
   src: url("../assets/fonts/Nexa-Light.otf");
@@ -143,6 +155,141 @@ body {
   font-size: 30px !important;
   padding: 10px !important;
   color: #fff !important;
+}
+
+@media (min-width: 37.5em) {
+  .swiper-wrapper-2 {
+    width: 92%;
+  }
+}
+.h-400px {
+  height: 500px !important;
+}
+
+.f {
+  width: 300px;
+  height: 390px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.featured-bg {
+  width: 300px;
+  height: 390px;
+  position: relative;
+  filter: blur(7px);
+}
+
+.swiper-featured-container .swiper-wrapper .swiper-slide .slide-trans {
+  width: 300px !important;
+  height: 400px;
+  position: relative;
+  transition: transform 0.5s ease-in-out;
+}
+.swiper-featured-container .swiper-wrapper .swiper-slide .slide-trans:hover {
+  transform: translate(0, -30px);
+}
+
+.featured-content {
+  width: 100%;
+  height: 35%;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  z-index: 2;
+  background: transparent;
+  backdrop-filter: blur(8px) brightness(1.2);
+}
+
+.blur-17px {
+  filter: blur(17px);
+}
+
+.bottom-1rem {
+  bottom: 1rem;
+}
+
+.bg-00 {
+  background: #000000;
+}
+
+.footer .nav-link {
+  width: fit-content;
+  color: #fff !important;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 400;
+  transition: font-size 0.2s ease-in, font-weight 0.2s ease-in;
+}
+.footer .nav-link:hover {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.modal .modal-header {
+  border-bottom: 0px;
+  background: #15181b;
+}
+
+.none-style {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+.none-style:hover {
+  color: #fff !important;
+}
+
+body.modal-open .supreme-container {
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #888;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 1px;
+  background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #15181b;
+}
+
+.records-header-border {
+  text-align: center;
+  padding-bottom: 20px;
+  background: linear-gradient(to left, #4bacbf 50%, #4bacbf 100%) left bottom #777 no-repeat;
+  background-size: 100% 20px;
+  /* if linear-gradient, we need to resize it */
+}
+
+.form-control {
+  background: #202020 !important;
+  border: 0px !important;
+  color: #fff;
+}
+.form-control:focus {
+  color: #fff;
+  box-shadow: 0 0 0 0.25rem #131212;
+}
+
+.fs-4rem {
+  font-size: 4rem;
 }
 
 /*# sourceMappingURL=main.css.map */
