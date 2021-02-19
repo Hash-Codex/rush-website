@@ -1,3 +1,7 @@
+.text-rec {
+  color: #4B7EBF;
+}
+
 .text-main {
   color: #3BC1C8;
 }
@@ -224,10 +228,6 @@ body {
   font-weight: bold;
 }
 
-.modal {
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-}
 .modal .modal-header {
   border-bottom: 0px;
   background: #15181b;
@@ -239,6 +239,14 @@ body {
 }
 .none-style:hover {
   color: #fff !important;
+}
+
+body.modal-open .supreme-container {
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
 }
 
 /* width */
@@ -260,6 +268,28 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #15181b;
+}
+
+.records-header-border {
+  text-align: center;
+  padding-bottom: 20px;
+  background: linear-gradient(to left, #4bacbf 50%, #4bacbf 100%) left bottom #777 no-repeat;
+  background-size: 100% 20px;
+  /* if linear-gradient, we need to resize it */
+}
+
+.form-control {
+  background: #202020 !important;
+  border: 0px !important;
+  color: #fff;
+}
+.form-control:focus {
+  color: #fff;
+  box-shadow: 0 0 0 0.25rem #131212;
+}
+
+.fs-4rem {
+  font-size: 4rem;
 }
 
 /*# sourceMappingURL=main.css.map */
