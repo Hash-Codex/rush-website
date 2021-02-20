@@ -24,8 +24,8 @@
     <div class="supreme-container">
         <nav class="navbar navbar-expand-lg navbar-dark navbar-bg">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" class="" height="90px"
-                        width="100px" alt="Rush Production"></a>
+                <a class="navbar-brand" href="index.html"><img src="assets/img/logo/rush-footer-logo.png" class="" height="90px"
+                        width="90px" alt="Rush Production"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -61,7 +61,76 @@
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <div class="video-header">
-                                            <video src="assets/video/bg-video.mp4" autoplay loop playsinline
+                                            <video id="v1" src="assets/video/bg-video.mp4" autoplay loop playsinline
+                                                muted></video>
+                                            <div class="viewport-header">
+                                                <div
+                                                    class="container vh-70 d-flex justify-content-center align-items-end pb-5">
+                                                    <div class="row text-center text-md-start">
+                                                        <div
+                                                            class="col-md-12 col-sm-12 text-center  d-flex d-sm-block flex-column p-3 rounded-1 bg-text-tranc">
+                                                            <h1 class="f-unisans animated" data-aos-delay="100"
+                                                                data-aos="fade-down">MUSIC, SOUND DESIGN AND
+                                                                POST PRODUCTION SOUND
+                                                                SERVICES</h1>
+                                                            <p class="animated" data-aos="fade-down">
+                                                                Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                                                elit,
+                                                                sed diam nonummy nibh euismod tincidunt ut laoreet
+                                                                dolore
+                                                                magna aliquam erat volutpat. Ut wisi enim ad minim
+                                                                veniam,
+                                                                quis nostrud exerci tation ullamcorper suscipit lobortis
+                                                                nisl
+                                                            </p>
+                                                            <button class="btn mx-auto btn-grad animated" type="button"
+                                                            data-aos="fade-up"  data-bs-toggle="modal" data-bs-target="#exampleModal3">Play now</button>
+                                                            <!-- <button class="btn mx-auto btn-grad animated" type="button" onclick="vc('#v1')">Play now</button>
+                                                     -->
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="video-header">
+                                            <video id="v2" src="assets/video/bg-video.mp4" autoplay loop playsinline
+                                                muted></video>
+                                            <div class="viewport-header">
+                                                <div
+                                                    class="container vh-70 d-flex justify-content-center align-items-end pb-5">
+                                                    <div class="row text-center text-md-start">
+                                                        <div
+                                                            class="col-md-12 col-sm-12 text-center  d-flex d-sm-block flex-column p-3 rounded-1 bg-text-tranc">
+                                                            <h1 class="f-unisans animated" data-aos-delay="100"
+                                                                data-aos="fade-down">MUSIC, SOUND DESIGN AND
+                                                                POST PRODUCTION SOUND
+                                                                SERVICES</h1>
+                                                            <p class="animated" data-aos="fade-down">
+                                                                Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                                                elit,
+                                                                sed diam nonummy nibh euismod tincidunt ut laoreet
+                                                                dolore
+                                                                magna aliquam erat volutpat. Ut wisi enim ad minim
+                                                                veniam,
+                                                                quis nostrud exerci tation ullamcorper suscipit lobortis
+                                                                nisl
+                                                            </p>
+                                                            <button class="btn mx-auto btn-grad animated" type="button"
+                                                            data-aos="fade-up"  data-bs-toggle="modal" data-bs-target="#exampleModal3">Play now</button>
+                                                    
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="video-header">
+                                            <video id="v3" src="assets/video/bg-video.mp4" autoplay loop playsinline
                                                 muted></video>
                                             <div class="viewport-header">
                                                 <div
@@ -309,17 +378,12 @@
         </section>
         <footer class="bg-00">
             <div class="container py-5">
-                <div class="row  pt-5">
-                    <div class="col-md-8 col-sm-12">
-                        <img src="assets/img/footer-logo.png" alt="" class="img-fluid" width="300px">
+                <div class="row ">
+                    <div class="col-md-8 text-center col-sm-12">
+                        <img src="assets/img/logo/rush-footer-logo.png" alt="" class="img-fluid" width="200px">
                     </div>
-                    <div class="col-md-4 col-sm-12  footer">
-                        <div class="d-md-block d-sm-flex flex-column justify-content-sm-center">
-                            <a class="nav-link" href="records.html">Rush records</a>
-                            <a class="nav-link" href="pictures.html">Rush Picture</a>
-                            <a class="nav-link" href="contact.html">Contact us</a>
-                            <a class="nav-link" href="#">Our community</a>
-                        </div>
+                    <div class="col-md-4 col-sm-12 footer">
+    
                     </div>
                 </div>
             </div>
@@ -438,7 +502,11 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>AOS.init();</script>
+    <script>AOS.init();
+        //  function hi(){
+        //     console.log("swiper.activeIndex",swiperBanner.activeIndex)
+        // }
+    </script>
     <script src="js/main.js"></script>
     <script>
         var swiperBanner = new Swiper('.swiper-banner-container', {
@@ -459,6 +527,21 @@
                 slideChangeTransitionStart: function () {
                     $('.animated').hide(0);
                     $('.animated').removeClass('aos-init').removeClass('aos-animate');
+                    if(this.activeIndex === 1){
+                        $('#v1').get(0).play();
+                    }else{
+                        $('#v1').get(0).pause()
+                    }
+                    if(this.activeIndex === 2){
+                        $('#v2').get(0).play();
+                    }else{
+                        $('#v2').get(0).pause()
+                    }
+                    if(this.activeIndex === 3){
+                        $('#v3').get(0).play();
+                    }else{
+                        $('#v3').get(0).pause()
+                    }
                 },
                 slideChangeTransitionEnd: function () {
                     $('.animated').show(0);
@@ -479,18 +562,19 @@
                     centeredSlidesBounds: true,
                     centeredSlides: true,
                     centerInsufficientSlides: true,
-                    loop: false,
-                    loopFillGroupWithBlank: false,
+                      loop: true,
+                    loopFillGroupWithBlank: true,
                 },
                 // when window width is >= 480px
                 480: {
+            
                     centeredSlidesBounds: true,
                     centeredSlides: true,
                     centerInsufficientSlides: true,
                     slidesPerView: 3,
                     spaceBetween: 0,
-                    loop: false,
-                    loopFillGroupWithBlank: false,
+                      loop: true,
+                    loopFillGroupWithBlank: true,
                     centeredSlides: true,
                 },
                 // when window width is >= 640px
