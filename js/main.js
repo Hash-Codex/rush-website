@@ -1,23 +1,7 @@
-// $(".home-banner").parallax({ imageSrc: "../assets/img/home-banner.png" });
-
-// const swiper = new Swiper('.swiper-container', {
-//     // Optional parameters
-//     direction: 'vertical',
-//     loop: true,
-  
-//     // If we need pagination
-//     pagination: {
-//       el: '.swiper-pagination',
-//     },
-  
-//     // Navigation arrows
-//     navigation: {
-//       nextEl: '.swiper-button-next',
-//       prevEl: '.swiper-button-prev',
-//     },
-  
-//     // And if we need scrollbar
-//     scrollbar: {
-//       el: '.swiper-scrollbar',
-//     },
-//   });
+$('#exampleModal3').on('shown.bs.modal', function () {
+    $('#video1')[0].play();
+    $('.supreme-container').addClass('video-blur');
+  })
+  $('#exampleModal3').on('hidden.bs.modal', function () {
+    $('#video1')[0].pause();
+  })
