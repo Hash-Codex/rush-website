@@ -133,7 +133,7 @@ body {
 .btn-grad {
   background-image: linear-gradient(to right, #438dd6 0%, #09e9ca 50%, #09e99e 90.84%);
   /* margin: 10px; */
-  padding: 15px 45px;
+  padding: 8px 45px;
   text-align: center;
   transition: 0.5s;
   background-size: 150% auto;
@@ -358,6 +358,41 @@ body.modal-open .supreme-container {
 
 .h-250px {
   height: 350px;
+}
+
+.video-header {
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+.video-header, .video-header video, .video-header .viewport-header {
+  width: 100vw;
+  height: 70vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.video-header video {
+  background: brown;
+  object-fit: cover;
+}
+.video-header .viewport-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-text-tranc {
+  background-color: #000000d1;
+}
+
+body.modal-open .video-blur {
+  -webkit-filter: brightness(0) !important;
+  -moz-filter: brightness(0) !important;
+  -o-filter: brightness(0) !important;
+  -ms-filter: brightness(0) !important;
+  filter: brightness(0) !important;
 }
 
 /*# sourceMappingURL=main.css.map */
