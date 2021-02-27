@@ -24,8 +24,8 @@
     <div class="supreme-container">
         <nav class="navbar navbar-expand-lg navbar-dark navbar-bg">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="assets/img/logo/rush-footer-logo.png" class="" height="90px"
-                        width="90px" alt="Rush Production"></a>
+                <a class="navbar-brand" href="index.html"><img src="assets/img/logo/rush-footer-logo.png" class=""
+                        height="100px" width="100px" alt="Rush Production"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -68,12 +68,12 @@
                                                     class="container vh-70 d-flex justify-content-center align-items-end pb-5">
                                                     <div class="row text-center text-md-start">
                                                         <div
-                                                            class="col-md-12 col-sm-12 text-center  d-flex d-sm-block flex-column p-3 rounded-1 bg-text-tranc">
-                                                            <h1 class="f-unisans animated" data-aos-delay="100"
+                                                            class="col-md-12 col-sm-12 text-center  d-flex d-sm-block flex-column p-0 rounded-1 bg-text-tranc">
+                                                            <h1 class="f-unisans animated p-1 pt-3" data-aos-delay="100"
                                                                 data-aos="fade-down">MUSIC, SOUND DESIGN AND
                                                                 POST PRODUCTION SOUND
                                                                 SERVICES</h1>
-                                                            <p class="animated" data-aos="fade-down">
+                                                            <p class="animated p-1" data-aos="fade-down">
                                                                 Lorem ipsum dolor sit amet, consectetuer adipiscing
                                                                 elit,
                                                                 sed diam nonummy nibh euismod tincidunt ut laoreet
@@ -84,10 +84,11 @@
                                                                 nisl
                                                             </p>
                                                             <button class="btn mx-auto btn-grad animated" type="button"
-                                                            data-aos="fade-up"  data-bs-toggle="modal" data-bs-target="#exampleModal3">Play now</button>
+                                                                data-aos="fade-up" data-bs-toggle="modal"
+                                                                data-bs-target="#videoModal" onclick="videoModal('assets/video/bg-video.mp4')">Play now</button>
                                                             <!-- <button class="btn mx-auto btn-grad animated" type="button" onclick="vc('#v1')">Play now</button>
                                                      -->
-
+                                                            <div class="pb-3"></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -96,7 +97,7 @@
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="video-header">
-                                            <video id="v2" src="assets/video/bg-video.mp4" autoplay loop playsinline
+                                            <video id="v2" src="https://designsupply-web.com/samplecontent/vender/codepen/20181014.mp4" autoplay loop playsinline
                                                 muted></video>
                                             <div class="viewport-header">
                                                 <div
@@ -119,9 +120,8 @@
                                                                 nisl
                                                             </p>
                                                             <button class="btn mx-auto btn-grad animated" type="button"
-                                                            data-aos="fade-up"  data-bs-toggle="modal" data-bs-target="#exampleModal3">Play now</button>
-                                                    
-
+                                                            data-aos="fade-up" data-bs-toggle="modal"
+                                                            data-bs-target="#videoModal" onclick='videoModal("https://designsupply-web.com/samplecontent/vender/codepen/20181014.mp4")'>Play now</button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -153,8 +153,9 @@
                                                                 nisl
                                                             </p>
                                                             <button class="btn mx-auto btn-grad animated" type="button"
-                                                            data-aos="fade-up"  data-bs-toggle="modal" data-bs-target="#exampleModal3">Play now</button>
-                                                    
+                                                                data-aos="fade-up" data-bs-toggle="modal"
+                                                                data-bs-target="#exampleModal3">Play now</button>
+
 
                                                         </div>
                                                     </div>
@@ -383,7 +384,7 @@
                         <img src="assets/img/logo/rush-footer-logo.png" alt="" class="img-fluid" width="200px">
                     </div>
                     <div class="col-md-4 col-sm-12 footer">
-    
+
                     </div>
                 </div>
             </div>
@@ -476,22 +477,20 @@
 
 
     <!-- video1 modal -->
-    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModal3Label" aria-hidden="true">
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl ">
             <div class="modal-content rounded-1rem bg-dark">
                 <div class="modal-body pt-4 pb-3 p-0">
-                    <div class="modal-body p-0">
-                        <video controls id="video1" class="w-100 h-100 m-0">
-                            <source src="assets/video/bg-video.mp4" type="video/mp4">
-                            Your browser doesn't support HTML5 video tag.
-                        </video>
+                    <div class="modal-body p-0" id="videoContainer" >
+                       
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
 
-       
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
@@ -527,21 +526,6 @@
                 slideChangeTransitionStart: function () {
                     $('.animated').hide(0);
                     $('.animated').removeClass('aos-init').removeClass('aos-animate');
-                    if(this.activeIndex === 1){
-                        $('#v1').get(0).play();
-                    }else{
-                        $('#v1').get(0).pause()
-                    }
-                    if(this.activeIndex === 2){
-                        $('#v2').get(0).play();
-                    }else{
-                        $('#v2').get(0).pause()
-                    }
-                    if(this.activeIndex === 3){
-                        $('#v3').get(0).play();
-                    }else{
-                        $('#v3').get(0).pause()
-                    }
                 },
                 slideChangeTransitionEnd: function () {
                     $('.animated').show(0);
@@ -562,18 +546,18 @@
                     centeredSlidesBounds: true,
                     centeredSlides: true,
                     centerInsufficientSlides: true,
-                      loop: true,
+                    loop: true,
                     loopFillGroupWithBlank: true,
                 },
                 // when window width is >= 480px
                 480: {
-            
+
                     centeredSlidesBounds: true,
                     centeredSlides: true,
                     centerInsufficientSlides: true,
                     slidesPerView: 3,
                     spaceBetween: 0,
-                      loop: true,
+                    loop: true,
                     loopFillGroupWithBlank: true,
                     centeredSlides: true,
                 },

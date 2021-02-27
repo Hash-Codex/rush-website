@@ -1,10 +1,17 @@
-$('#exampleModal3').on('shown.bs.modal', function () {
-    $('#video1')[0].play();
-    $('.supreme-container').addClass('video-blur');
-  })
-  $('#exampleModal3').on('hidden.bs.modal', function () {
-    $('#video1')[0].pause();
-  })
-  function vc(id) {
-    $(id).get(0).pause()
-  }
+$("#videoModal").on("shown.bs.modal", function () {
+  $("#videoControl")[0].play();
+  $(".supreme-container").addClass("video-blur");
+});
+$("#videoModal").on("hidden.bs.modal", function () {
+  $("#videoControl")[0].pause();
+});
+function videoModal(src) {
+  $("#videoContainer").empty();
+  $("#videoContainer").append(
+    `
+    <video id="videoControl" controls class="w-100 h-100 m-0">
+    <source src="${src}" type="video/mp4">
+    </video>
+    `
+  );
+}
