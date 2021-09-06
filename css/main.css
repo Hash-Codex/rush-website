@@ -1,13 +1,13 @@
 .text-rec {
-  color: #4B7EBF;
+  color: #4b7ebf;
 }
 
 .text-main {
-  color: #3BC1C8;
+  color: #3bc1c8;
 }
 
 .bg-main {
-  background-color: #3BC1C8 !important;
+  background-color: #3bc1c8 !important;
 }
 
 @font-face {
@@ -88,15 +88,23 @@ body {
 .header-border {
   text-align: center;
   padding-bottom: 20px;
-  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #5ac2c6), to(#07ef9c)) left bottom #777 no-repeat;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #5ac2c6), to(#07ef9c)) left bottom #777
+    no-repeat;
   background: linear-gradient(to left, #5ac2c6 50%, #07ef9c 100%) left bottom #777 no-repeat;
   background-size: 100% 20px;
   /* if linear-gradient, we need to resize it */
 }
 
 .btn-grad-rec {
-  background-image: -webkit-gradient(linear, left top, right top, from(#4B88BF), color-stop(50%, #4BACBF), color-stop(90.84%, #4AD1EC));
-  background-image: linear-gradient(to right, #4B88BF 0%, #4BACBF 50%, #4AD1EC 90.84%);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#4b88bf),
+    color-stop(50%, #4bacbf),
+    color-stop(90.84%, #4ad1ec)
+  );
+  background-image: linear-gradient(to right, #4b88bf 0%, #4bacbf 50%, #4ad1ec 90.84%);
   /* margin: 10px; */
   padding: 15px 45px;
   text-align: center;
@@ -120,7 +128,14 @@ body {
 }
 
 .btn-grad-pic {
-  background-image: -webkit-gradient(linear, left top, right top, from(#808080), color-stop(50%, #525252), color-stop(90.84%, #292929));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#808080),
+    color-stop(50%, #525252),
+    color-stop(90.84%, #292929)
+  );
   background-image: linear-gradient(to right, #808080 0%, #525252 50%, #292929 90.84%);
   /* margin: 10px; */
   padding: 15px 45px;
@@ -145,7 +160,14 @@ body {
 }
 
 .btn-grad {
-  background-image: -webkit-gradient(linear, left top, right top, from(#438dd6), color-stop(50%, #09e9ca), color-stop(90.84%, #09e99e));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#438dd6),
+    color-stop(50%, #09e9ca),
+    color-stop(90.84%, #09e99e)
+  );
   background-image: linear-gradient(to right, #438dd6 0%, #09e9ca 50%, #09e99e 90.84%);
   /* margin: 10px; */
   padding: 8px 45px;
@@ -194,7 +216,7 @@ body {
 }
 
 .swiper-home-banner-button-next::after {
-  content: 'next';
+  content: "next";
   font-size: 30px !important;
   padding: 10px !important;
   color: #fff !important;
@@ -209,7 +231,7 @@ body {
 }
 
 .swiper-home-banner-button-prev::after {
-  content: 'next';
+  content: "next";
   font-size: 30px !important;
   padding: 10px !important;
   color: #fff !important;
@@ -239,37 +261,37 @@ body {
   height: 390px;
   position: relative;
   -webkit-filter: blur(7px);
-          filter: blur(7px);
+  filter: blur(7px);
 }
 
 .swiper-featured-container .swiper-wrapper .swiper-slide .slide-trans {
   width: 300px !important;
   height: 400px;
   position: relative;
-  -webkit-transition: -webkit-transform .5s ease-in-out;
-  transition: -webkit-transform .5s ease-in-out;
-  transition: transform .5s ease-in-out;
-  transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
 
 .swiper-featured-container .swiper-wrapper .swiper-slide .slide-trans:hover {
   -webkit-transform: translate(0, -30px);
-          transform: translate(0, -30px);
+  transform: translate(0, -30px);
 }
 
 .swiper-featured-container-artist .swiper-wrapper .swiper-slide .slide-trans {
   width: 300px !important;
   height: 400px;
   position: relative;
-  -webkit-transition: -webkit-transform .5s ease-in-out;
-  transition: -webkit-transform .5s ease-in-out;
-  transition: transform .5s ease-in-out;
-  transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
 
 .swiper-featured-container-artist .swiper-wrapper .swiper-slide .slide-trans:hover {
   -webkit-transform: translate(0, -30px);
-          transform: translate(0, -30px);
+  transform: translate(0, -30px);
 }
 
 .featured-content {
@@ -281,12 +303,12 @@ body {
   z-index: 2;
   background: transparent;
   -webkit-backdrop-filter: blur(8px) brightness(1.2);
-          backdrop-filter: blur(8px) brightness(1.2);
+  backdrop-filter: blur(8px) brightness(1.2);
 }
 
 .blur-17px {
   -webkit-filter: blur(17px);
-          filter: blur(17px);
+  filter: blur(17px);
 }
 
 .bottom-1rem {
@@ -305,8 +327,8 @@ body {
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: 400;
-  -webkit-transition: font-size .2s ease-in, font-weight .2s ease-in;
-  transition: font-size .2s ease-in, font-weight .2s ease-in;
+  -webkit-transition: font-size 0.2s ease-in, font-weight 0.2s ease-in;
+  transition: font-size 0.2s ease-in, font-weight 0.2s ease-in;
 }
 
 .footer .nav-link:hover {
@@ -360,7 +382,8 @@ body.modal-open .supreme-container {
 .records-header-border {
   text-align: center;
   padding-bottom: 20px;
-  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #4bacbf), to(#4bacbf)) left bottom #777 no-repeat;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #4bacbf), to(#4bacbf)) left bottom #777
+    no-repeat;
   background: linear-gradient(to left, #4bacbf 50%, #4bacbf 100%) left bottom #777 no-repeat;
   background-size: 100% 20px;
   /* if linear-gradient, we need to resize it */
@@ -375,7 +398,7 @@ body.modal-open .supreme-container {
 .form-control:focus {
   color: #fff;
   -webkit-box-shadow: 0 0 0 0.25rem #131212 !important;
-          box-shadow: 0 0 0 0.25rem #131212 !important;
+  box-shadow: 0 0 0 0.25rem #131212 !important;
 }
 
 .form-select {
@@ -387,7 +410,7 @@ body.modal-open .supreme-container {
 .form-select:focus {
   color: #fff;
   -webkit-box-shadow: 0 0 0 0.25rem #131212 !important;
-          box-shadow: 0 0 0 0.25rem #131212 !important;
+  box-shadow: 0 0 0 0.25rem #131212 !important;
 }
 
 .fs-4rem {
@@ -397,7 +420,8 @@ body.modal-open .supreme-container {
 .pictures-header-border {
   text-align: center;
   padding-bottom: 20px;
-  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #262223), to(#f6f6f6)) left bottom #777 no-repeat;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #262223), to(#f6f6f6)) left bottom #777
+    no-repeat;
   background: linear-gradient(to left, #262223 50%, #f6f6f6 100%) left bottom #777 no-repeat;
   background-size: 100% 20px;
   /* if linear-gradient, we need to resize it */
@@ -418,7 +442,9 @@ body.modal-open .supreme-container {
   height: 100vh;
 }
 
-.video-header, .video-header video, .video-header .viewport-header {
+.video-header,
+.video-header video,
+.video-header .viewport-header {
   width: 100vw;
   height: 70vh;
   position: absolute;
@@ -429,7 +455,7 @@ body.modal-open .supreme-container {
 .video-header video {
   background: brown;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .video-header .viewport-header {
@@ -437,11 +463,11 @@ body.modal-open .supreme-container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .bg-text-tranc {
@@ -466,7 +492,8 @@ body.modal-open .video-blur {
   border: none;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
   color: #070707;
   background-color: #ffffff;
 }
@@ -483,7 +510,7 @@ button:focus {
 
 .social-btn:focus {
   -webkit-box-shadow: 0 0 0 0.25rem #131212 !important;
-          box-shadow: 0 0 0 0.25rem #131212 !important;
+  box-shadow: 0 0 0 0.25rem #131212 !important;
 }
 
 .social-btn:hover {
@@ -494,4 +521,46 @@ button:focus {
 .social-btn .icon {
   font-size: 24px;
 }
+.services-banner {
+  background-image: url("../assets/img/services-banner-min.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
+.section-title span.subtitle {
+  color: #3ec1c7;
+  display: inline-block;
+}
+
+.service-main-wrapper .service.service__style--2 {
+  background: #0c0c0c;
+}
+.service-main-wrapper .service.service__style--2:hover {
+  box-shadow: 0px 2px 70px 0px rgb(253 71 102 / 5%);
+  transform: translateY(-5px);
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .service-main-wrapper .service.service__style--2.text-left {
+    padding: 40px 30px;
+  }
+}
+.service-main-wrapper .service.service__style--2.text-left {
+  padding: 50px;
+}
+.service-main-wrapper .service.service__style--2 {
+  padding: 30px 35px;
+  transition: transform 0.65s cubic-bezier(0.05, 0.2, 0.1, 1), box-shadow 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
+  z-index: 2;
+  background-color: #0c0c0c;
+  margin-top: 30px;
+}
+
+.service-main-wrapper .service.service__style--1,
+.service-main-wrapper .service.service__style--2 {
+  position: relative;
+}
+
 /*# sourceMappingURL=main.css.map */
